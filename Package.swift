@@ -5,7 +5,7 @@ let package = Package(
 	name: "ActiveWin",
 	products: [
 		.executable(
-			name: "active-win",
+			name: "active-win-beta",
 			targets: [
 				"ActiveWinCLI"
 			]

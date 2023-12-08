@@ -19,9 +19,9 @@
 	"main": "./index",
 	"types": "./index.d.ts",
 	"binary": {
-		"module_name": "node-active-win",
+		"module_name": "node-active-win-beta",
 		"module_path": "./lib/binding/napi-{napi_build_version}-{platform}-{libc}-{arch}",
-		"host": "https://github.com/sindresorhus/active-win/releases/download/",
+		"host": "https://github.com/luke358/active-win-beta/releases/download/",
 		"remote_path": "v{version}",
 		"package_name": "napi-{napi_build_version}-{platform}-{libc}-{arch}.tar.gz",
 		"napi_versions": [
@@ -35,7 +35,7 @@
 		"build:windows:install": "node-pre-gyp install --fallback-to-build",
 		"build:windows": "node-pre-gyp build",
 		"build:windows:debug": "node-pre-gyp build --debug",
-		"build:macos": "swift build --configuration=release --arch arm64 --arch x86_64 && mv .build/apple/Products/Release/active-win main",
+		"build:macos": "swift build --configuration=release --arch arm64 --arch x86_64 && mv .build/apple/Products/Release/active-win-beta main",
 		"install": "node-pre-gyp install --fallback-to-build"
 	},
 	"files": [
