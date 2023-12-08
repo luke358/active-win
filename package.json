@@ -1,11 +1,11 @@
 {
 	"name": "active-win-beta",
-	"version": "8.1.1-beta",
+	"version": "8.1.2",
 	"description": "Get metadata about the active window (title, id, bounds, owner, URL, etc)",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sindresorhus/active-win.git"
+		"url": "git+https://github.com/luke358/active-win-beta.git"
 	},
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
