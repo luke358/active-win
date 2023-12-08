@@ -1,6 +1,6 @@
 {
 	"name": "active-win-beta",
-	"version": "8.1.1",
+	"version": "8.1.1-beta",
 	"description": "Get metadata about the active window (title, id, bounds, owner, URL, etc)",
 	"license": "MIT",
 	"repository": {
